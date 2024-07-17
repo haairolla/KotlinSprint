@@ -7,8 +7,10 @@ fun main() {
     println(numOfOrders)
     println(gratitudeTxt)
 
-//    val numOfEmployees = 2000
-    val numOfEmployees = 1999
+   var numOfEmployees = 2000
+//    println(numOfEmployees)
+
+    numOfEmployees = 1999
     println(numOfEmployees)
 
 }
