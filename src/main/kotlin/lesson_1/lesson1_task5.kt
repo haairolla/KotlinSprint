@@ -2,10 +2,11 @@ package org.example.lesson_1
 
 fun main() {
 
-    val seconds = 6480
-    val hour = "01"
-    val minute = "48"
-    val lastSeconds = "08"
+    val totalSeconds = 6480
+    val hour = totalSeconds / 3600
+    val lastSeconds = totalSeconds - hour * 3600
+    val minute = lastSeconds / 60
+    val seconds = lastSeconds % 60
 
-    print(hour + ":" + minute + ":" + lastSeconds)
+    print(String.format("0") + hour + ":" + minute + ":" + String.format("0") + seconds)
 }
