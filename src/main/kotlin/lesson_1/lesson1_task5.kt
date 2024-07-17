@@ -8,5 +8,5 @@ fun main() {
     val minute = lastSeconds / 60
     val seconds = lastSeconds % 60
 
-    print(String.format("0") + hour + ":" + minute + ":" + String.format("0") + seconds)
+    print(String.format("%02d:%02d:%02d", hour, minute, seconds))
 }
