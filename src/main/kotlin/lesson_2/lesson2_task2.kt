@@ -4,12 +4,12 @@ fun main() {
 
     var permEmployees = 50
     var salaryPerm = 30000
-    var interns = 30
+    var internss = 30
     var salaryInterns = 20000
 
     val permEmployeesExpenses = permEmployees * salaryPerm
-    val totalSalary = permEmployeesExpenses + (interns * salaryInterns)
-    val averageSalary = totalSalary / (permEmployees + interns)
+    val totalSalary = permEmployeesExpenses + (internss * salaryInterns)
+    val averageSalary = totalSalary / (permEmployees + internss)
 
     println("Зарплата постоянных работников: " + permEmployeesExpenses)
     println("Общая зарплата всех сотрудников: " + totalSalary)
