@@ -16,10 +16,10 @@ fun main() {
     println()
 
     print("Введите имя пользователя: ")
-    val userNameResult = readLine().toString()
+    val userNameResult = readln().toString()
     if (userNameResult == userName) {
         print("Введите ваш пароль: ")
-        val userPasswordResult = readLine().toString()
+        val userPasswordResult = readln().toString()
         println()
 
         if (userPasswordResult == userPassword) {
@@ -33,9 +33,9 @@ fun main() {
     } else if (userNameResult != userName) {
         println("Вы не зарегистрированы! Давайте исправим это")
         print("Введите ваше новое имя пользователя: ")
-        userName = readLine().toString()
+        userName = readln().toString()
         print("Введите ваш новый пароль: ")
-        userPassword = readLine().toString()
+        userPassword = readln().toString()
         println()
         println("""
                 [вздыхает...] Ваши данные проверены, и о, чудо, они верны... " +
