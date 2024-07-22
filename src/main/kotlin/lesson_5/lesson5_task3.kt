@@ -7,9 +7,9 @@ fun main() {
 
     println("Нужно угадать два числа от 0 до 42")
     print("Введите первое число: ")
-    val userNumOne = readLine()!!.toInt()
+    val userNumOne = readln().toInt()
     print("Введите второе число: ")
-    val userNumTwo = readLine()!!.toInt()
+    val userNumTwo = readln().toInt()
 
     if (userNumOne == winNumOne && userNumTwo == winNumTwo) {
         println("Поздравляем! Вы выиграли главный приз!")
