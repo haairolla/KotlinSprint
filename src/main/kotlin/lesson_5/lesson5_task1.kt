@@ -7,7 +7,7 @@ fun main() {
     val rightAnswer = randomNumOne + randomNumTwo
 
     println("Вычислите пример: '$randomNumOne + $randomNumTwo' и введите свой ответ")
-    val userNum = readLine()!!.toInt()
+    val userNum = readln().toInt()
 
     if (userNum == rightAnswer) {
         println("Добро пожаловать!")
