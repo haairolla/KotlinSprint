@@ -3,7 +3,7 @@ package org.example.lesson_5
 fun main() {
 
     print("Введите ваш год рождения: ")
-    val userYear = readLine()!!.toInt()
+    val userYear = readln().toInt()
     val userAge = THIS_YEAR - userYear
 
     if(userAge >= USER_AGE_MIN) {
