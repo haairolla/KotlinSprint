@@ -13,7 +13,11 @@ fun main() {
 
     if (userNumOne == winNumOne && userNumTwo == winNumTwo) {
         println("Поздравляем! Вы выиграли главный приз!")
+    } else if(userNumOne == winNumTwo && userNumTwo == winNumOne) {
+        println("Поздравляем! Вы выиграли главный приз!")
     } else if(userNumOne == winNumOne || userNumTwo == winNumTwo) {
+        println("Вы выиграли утешительный приз!")
+    } else if(userNumOne == winNumTwo || userNumTwo == winNumOne) {
         println("Вы выиграли утешительный приз!")
     } else if(userNumOne != winNumOne && userNumTwo != winNumTwo) {
         println("Неудача!")
